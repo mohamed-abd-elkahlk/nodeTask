@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const geocode = require("./controller/gecode.servises");
 const forecast = require("./controller/forcast.servises");
 dotenv.config({
-  path: ".env/config.env",
+  path: ".config.env",
 });
 
 console.log(
